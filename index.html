@@ -17,7 +17,12 @@
 
   <body class="flex flex-col items-center">
     <div class="flex flex-col w-auto max-w-[1200px] h-auto">
-      <div class="flex flex-col px-[60px] py-[10px] z-[99]">
+      <img
+        class="absolute left-[900px] bottom-[200px]"
+        src="images/bg-pattern-circle.svg"
+        alt=""
+      />
+      <div class="flex flex-col relative px-[60px] py-[10px] z-[99]">
         <div class="flex flex-row justify-between w-full h-auto items-center">
           <div class="flex flex-row items-center gap-[10px]">
             <img src="images/logo.svg" alt="" />
@@ -27,7 +32,7 @@
             <p class="opacity-45">Contact</p>
           </div>
           <div
-            class="flex justify-center items-center rounded-2xl bg-rose-600 px-[6px] py-[3px] h-auto w-auto"
+            class="flex justify-center items-center rounded-2xl bg-rose-900 px-[6px] py-[3px] h-auto w-auto"
           >
             <p class="text-white">Schedule a Demo</p>
           </div>
@@ -50,7 +55,7 @@
                 placeholder="Enter email address "
               />
               <div
-                class="flex justify-center items-center rounded-2xl bg-rose-600 px-[6px] py-[3px] h-auto w-auto"
+                class="flex justify-center items-center rounded-2xl bg-rose-900 px-[6px] py-[3px] h-auto w-auto"
               >
                 <p class="text-white">Schedule a Demo</p>
               </div>
@@ -68,9 +73,15 @@
           </div>
         </div>
       </div>
+
       <div
-        class="w-full h-auto px-[60px] py-[30px] bg-blue-950 md:flex md:flex-row flex flex-col gap-[20px]"
+        class="w-full h-auto overflow-hidden relative px-[60px] py-[30px] bg-blue-950 md:flex md:flex-row flex flex-col gap-[20px]"
       >
+        <img
+          class="absolute w-[400px] h-[400px] right-[1000px] top-[-200px]"
+          src="images/bg-pattern-circle.svg"
+          alt=""
+        />
         <div
           class="flex flex-col md:justify-start justify-center md:items-start items-center md:text-start text-center gap-y-[13px]"
         >
@@ -226,7 +237,7 @@
             placeholder="Enter email address "
           />
           <div
-            class="flex justify-center items-center rounded-2xl bg-rose-600 px-[6px] py-[3px] h-auto w-full max-w-[200px]"
+            class="flex justify-center items-center rounded-2xl bg-rose-900 px-[6px] py-[3px] h-auto w-full max-w-[200px]"
           >
             <p class="text-white">Schedule a Demo</p>
           </div>
@@ -236,15 +247,18 @@
     <div
       class="w-full h-auto bg-blue-950 md:flex md:flex-row flex flex-col md:justify-between py-[10px] px-[25px] md:mt-[50px] gap-3"
     >
-      <div class="md:flex md:flex-row flex flex-col gap-[20px] items-center">
+      <div
+        class="md:flex md:flex-row flex flex-col gap-[20px] items-center px-3"
+      >
+        <img src="images/logo.svg" alt="" />
         <p class="text-white text-2xl opacity-45">Pricing</p>
         <p class="text-white text-2xl opacity-45">About</p>
         <p class="text-white text-2xl opacity-45">Contact</p>
       </div>
       <div class="md:flex md:flex-row flex flex-col gap-[20px] items-center">
-        <img class="w-[40px] h-[40px]" src="logos/facebook.svg" alt="" />
-        <img class="w-[40px] h-[40px]" src="logos/twitter.svg" alt="" />
-        <img class="w-[40px] h-[40px]" src="logos/linkedin.svg" alt="" />
+        <img class="w-[30px] h-[30px]" src="logos/facebook.svg" alt="" />
+        <img class="w-[30px] h-[30px]" src="logos/twitter.svg" alt="" />
+        <img class="w-[30px] h-[30px]" src="logos/linkedin.svg" alt="" />
       </div>
     </div>
   </body>
